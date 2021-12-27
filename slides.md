@@ -54,7 +54,8 @@ Mais IHM basé sur **XSLT**
 
 ---
 
-## Exemple 
+
+![bg vertical fit](img/exemple-xsl.png)
 
 ---
 
@@ -96,8 +97,7 @@ Framework basé sur flash et possédant une intégration avec Spring.
 
 ## Le changement de charte graphique
 
-![bg left:25%](https://media.giphy.com/media/WhwzCRKKs1yDe/giphy.gif)
-
+![bg fit left](img/chartegraphique.png)
 Effet de bord : Les utilisateurs pensent que ce sont de nouvelles applications **et Trouvent des bugs imaginaires**.
 <!-- Le plus souvent des fonctionnalités qui n'existent pas. -->
 
@@ -125,6 +125,8 @@ Pour rappel, l'ancètre de Angular.
 _Pré-requis_ : Avoir nos futures applications ayant le même rendu que celle du monolithe.
 
 **:bulb:  Remplacer le menu du monolithe par un composant javascript.** 
+
+![fit](img/menu.png)
 
 ---
 
@@ -185,11 +187,10 @@ Décision de la DSI : Utiliser les mêmes technologies dans la partie internet.
 **Et là, Angularjs ne fait plus le job.**
 
 ---
+ 
+Les développeurs sont satisfaits d'angularjs pour les applications internes. => :trophy: VueJs est le gagnant.
 
-## La sélection
-
-Les développeurs sont satisfaits d'angularjs pour les applications internes.
-:trophy: VueJs est le gagnant.
+![fit](img/comparaisonvueangularjs.png)
 
 <!-- React et Angular apportent pleins de changements.   -->
 <!-- Performance similaire entre react et vuejs -->
@@ -202,16 +203,37 @@ Les développeurs sont satisfaits d'angularjs pour les applications internes.
 
 ## Bibliothèque de composants
 
+Utiliser Storybook
+
+![](img/storybook.png)
 
 
 ---
 
 ## Ne pas oublier le passé
 
----
+### Architecture Decision Record : ADR
 
-## Et l'ancienne application ?
+Effectuez des comptes rendu de vos décisions d'architecture même celles impactant vos IHMs.
+
+Utilisez vos wikis, vos issues, vos outils  de documentations projets pour noter vos essais, vos échecs, etc...
+
+Et surtout faîtes qu'elles soient accessibles à tous vos développeurs.
+
 
 ---
 
 ## En conclusion
+
+- L'utilisation de composants permet de créer des applications de gestion complexe rapidement. 
+- Testez vos nouvelles briques sur des périmètres restreints (N'oubliez pas votre support et vos ops).
+- Attention les nombres d'incidents augmentent en cas de gros changements graphiques.
+- Ayez une bonne connaissance des bases (Protocole Http).
+- Restez en veille (Sinon vous êtes venu pour la soirée vin rouge fromage ?).
+
+
+--- 
+- Collaborez et écoutez les remarques de toutes les personnes de vos DSI (Prestas inclus).
+- Notez vos décisions, vos succés et vos échecs.
+## Merci de m'avoir écouté
+
