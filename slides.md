@@ -7,7 +7,7 @@ color: var(--color-primary)
 
 ![bg fit](img/first-bg.png)
 
-# L'évolution de nos formulaires sur 20 ans
+# L'évolution de nos IHMs sur 20 ans
 
 <!-- Un retour d'expérience sur les évolutions et comment nous avons pu les adresser dans une DSI à taille humaine.  -->
 ---
